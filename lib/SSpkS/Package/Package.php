@@ -29,7 +29,7 @@ namespace SSpkS\Package;
  * @property bool $silent_upgrade Allow silent upgrade
  * @property bool $qinst Allow silent install
  * @property bool $qupgrade Allow silent upgrade
- * @property bool $auto_upgrade_from allow auto upgrade
+ * @property string $auto_upgrade_from allow auto upgrade from version
  * @property bool $qstart Allow automatic start after install
  */
 class Package
